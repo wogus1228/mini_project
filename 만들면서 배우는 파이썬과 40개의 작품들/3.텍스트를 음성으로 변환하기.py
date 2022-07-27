@@ -11,7 +11,7 @@ import os
 # 현재 경로를 기본 경로로 설정
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-file_path = 'sample.txt'
+file_path = '3_sample.txt'
 with open(file_path, 'rt', encoding='UTF8') as f:
     read_file = f.read()
 
